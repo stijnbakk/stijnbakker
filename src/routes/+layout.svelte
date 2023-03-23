@@ -1,18 +1,21 @@
 <script lang="ts">
 	import { page } from '$app/stores';
+	import Footer from '$lib/components/layout/Footer.svelte';
+	import Header from '$lib/components/layout/Header.svelte';
 	import '../app.css';
 </script>
 
-<header>
+<!-- <header>
 	<a href="/"><h1 class:small={$page.url.pathname !== '/'}>SvelteKit + MDsveX Blog</h1></a>
-</header>
+</header> -->
 
-<main>
+<div class="flex flex-col h-screen justify-between">
+<Header />
+
+<main class="mb-auto">
 	<slot />
 </main>
 
-<footer>
-	<p>
-		Copyright &#169; <a href="https://twitter.com/mehdi_vasigh">Mehdi Vasigh</a>, {new Date().getFullYear()}
-	</p>
-</footer>
+<Footer />
+
+</div>
