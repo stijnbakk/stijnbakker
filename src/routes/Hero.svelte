@@ -1,4 +1,6 @@
 <script lang="ts">
+	import ReachOut from "$lib/components/common/ReachOut.svelte";
+
 	let scroll: number = 0;
 </script>
 
@@ -45,14 +47,9 @@
 			I'm a <a href="/freelance">freelance strategist</a>,<br />
 			<a href="#">concept designer</a>, <br />
 			<a href="#">curious person</a>, <br />
-			and <a href="#">enthusiastic photographer</a>
+			and <a href="/photography">enthusiastic photographer</a>
 		</p>
-		<div class="buttons" style:transform={`translate3d(0, ${scroll * -1.1}px,0)`}>
-			<a href="https://cal.com/stijnbakker" class="">schedule</a>
-			<a href="tel:0031630519248">call</a>
-			<a href="stijn@stijnbakker.com">mail</a>
-			<a href="https://www.linkedin.com/in/stijnbakker-innovation/">connect</a>
-		</div>
+	<ReachOut />
 	</div>
 </div>
 
@@ -65,18 +62,6 @@
 			underline underline-offset-8 
 			hover:bg-black hover:text-white 
 			rounded-md;
-		}
-	}
-	.buttons {
-		line-height: 1.8;
-		a {
-			@apply py-2 px-4 
-			border-2 border-black 
-			inline-block rounded 
-			hover:bg-black hover:text-white 
-			transition-all 
-			my-[0.15rem]
-			text-xs sm:text-base;
 		}
 	}
 </style>

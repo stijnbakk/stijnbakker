@@ -21,6 +21,10 @@
 			title: 'Freelance',
 			href: '/freelance'
 		},
+		{
+			title: 'Photography',
+			href: '/photography'
+		}
 		// {
 		// 	title: 'Other',
 		// 	subMenu: [
