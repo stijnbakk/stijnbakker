@@ -1,8 +1,13 @@
+<script>
+	import SvelteSeo from 'svelte-seo';
+	import Hero from './Hero.svelte';
 
-<div class="prose mx-auto">
-    <h1>Welcome</h1>
-    
-<ul>
-    <li><a href="/writings">Writings</a></li>
-</ul>
+	const title = 'Stijn Bakker - strategist, concept creator and essayist';
+	const description =
+		"I'm a digital strategist, concept creator, essayist and freelance consultant based in Rotterdam";
+</script>
+
+<SvelteSeo {title} {description} />
+<div class="">
+    <Hero />
 </div>

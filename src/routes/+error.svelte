@@ -1,4 +1,10 @@
-<h2>
-	<span class="errorCode">404</span>
-	<span class="errorMessage">Page Not Found</span>
-</h2>
+<script>
+	export const prerender = true;
+</script>
+
+<div class="flex min-h-full my-20">
+	<div class="m-auto text-center">
+		<h1 class="font-serif text-4xl mb-4">Oops, this page doesn't (yet) exist</h1>
+		<p>Stijn</p>
+	</div>
+</div>
