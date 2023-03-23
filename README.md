@@ -8,6 +8,18 @@ What you need for sure is this:
 Let's install those
 
 Then the general structure of the site, something like this
+
+Layout
+- Default SEO
+- Top bar
+- Slot
+- Footer
+
+
+
+
+
+
 Welcome
 Freelance
 About
@@ -17,3 +29,12 @@ Project ventura
 Photography
 Legacy portfolio
 Topics of interest
+
+
+
+
+
+
+## Reference projects
+- https://github.com/mvasigh/sveltekit-mdsvex-blog
+- https://www.npmjs.com/package/svelte-seo

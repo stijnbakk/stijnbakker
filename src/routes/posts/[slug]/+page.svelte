@@ -2,9 +2,9 @@
 	import type { PageData } from './$types';
 	import type { SvelteComponentTyped } from 'svelte/internal';
 
-	import PageHead from '$lib/components/PageHead.svelte';
-	import ArticleTitle from '$lib/components/ArticleTitle.svelte';
-	import ArticleMeta from '$lib/components/ArticleMeta.svelte';
+	import PageHead from '$lib/blogComponents/PageHead.svelte';
+	import ArticleTitle from '$lib/blogComponents/ArticleTitle.svelte';
+	import ArticleMeta from '$lib/blogComponents/ArticleMeta.svelte';
 
 	export let data: PageData;
 
