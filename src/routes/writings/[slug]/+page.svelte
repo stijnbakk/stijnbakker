@@ -8,6 +8,11 @@
 
 	type C = $$Generic<typeof SvelteComponentTyped<any, any, any>>;
 	$: component = data.component as unknown as C;
+
+	// TODO: make it so it uses folders instead of files
+	// TODO: add OG image and SEO
+	// TODO: create TLDR component
+	// TODO: Parse date
 </script>
 
 <!-- Cleanup unnecessary code in this file -->
@@ -19,9 +24,6 @@
 	<h1>
 		{data.frontmatter.title}
 	</h1>
-	<p>
-		{data.frontmatter.date}
-	</p>
 	
 	<svelte:component this={component} />
 </div>

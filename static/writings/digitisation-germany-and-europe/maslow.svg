@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="664px" height="555px" viewBox="0 0 664 555" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(5.500000, 4.500000)">
+            <g id="text" transform="translate(178.000000, 91.500000)" fill="#474747" font-family="SFPro-Bold, SF Pro" font-size="18" font-weight="bold">
+                <text id="economy">
+                    <tspan x="108.556737" y="17">economy</tspan>
+                </text>
+                <text id="services">
+                    <tspan x="111.793617" y="83">services</tspan>
+                </text>
+                <text id="ecosystem-for-innova">
+                    <tspan x="42.2563926" y="155">ecosystem</tspan>
+                    <tspan x="49.2128906" y="176" font-family="SFPro-Regular, SF Pro" font-size="10" font-weight="normal">for innovation and </tspan>
+                    <tspan x="53.3046875" y="188" font-family="SFPro-Regular, SF Pro" font-size="10" font-weight="normal">entrepreneurship</tspan>
+                </text>
+                <text id="digital-government-s">
+                    <tspan x="159.5" y="155">digital </tspan>
+                    <tspan x="159.5" y="176">government</tspan>
+                    <tspan x="159.5" y="197" font-family="SFPro-Regular, SF Pro" font-size="10" font-weight="normal">services</tspan>
+                </text>
+                <text id="digital-payment-syst">
+                    <tspan x="2.51634824" y="241">digital payment </tspan>
+                    <tspan x="63.6551379" y="262">systems</tspan>
+                </text>
+                <text id="legal-and-regulatory">
+                    <tspan x="109.200452" y="324">legal and </tspan>
+                    <tspan x="103.161781" y="345">regulatory</tspan>
+                </text>
+                <text id="digital-infrastructu">
+                    <tspan x="82.3460768" y="409">digital </tspan>
+                    <tspan x="16.2142988" y="430">infrastructure</tspan>
+                </text>
+                <text id="digital-literacy-and">
+                    <tspan x="159.5" y="409">digital literacy </tspan>
+                    <tspan x="159.5" y="430">and skills</tspan>
+                </text>
+                <text id="cyber-security">
+                    <tspan x="159.5" y="241">cyber-</tspan>
+                    <tspan x="159.5" y="262">security</tspan>
+                </text>
+            </g>
+            <line x1="326" y1="546" x2="326" y2="463" id="Line-2" stroke="#000000" stroke-width="3" stroke-linecap="round"></line>
+            <line x1="326" y1="377" x2="326" y2="210" id="Line-2-Copy" stroke="#000000" stroke-width="3" stroke-linecap="round"></line>
+            <line x1="152" y1="294" x2="503" y2="294" id="Line" stroke="#000000" stroke-width="3" stroke-linecap="round"></line>
+            <line x1="100" y1="378" x2="553" y2="378" id="Line-Copy-3" stroke="#000000" stroke-width="3" stroke-linecap="round"></line>
+            <line x1="50" y1="463" x2="604" y2="463" id="Line-Copy-4" stroke="#000000" stroke-width="3" stroke-linecap="round"></line>
+            <line x1="201" y1="210" x2="452" y2="210" id="Line-Copy" stroke="#000000" stroke-width="3" stroke-linecap="round"></line>
+            <line x1="250" y1="127" x2="403" y2="127" id="Line-Copy-2" stroke="#000000" stroke-width="3" stroke-linecap="round"></line>
+            <polyline id="Line-Copy-5" stroke="#000000" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" points="654 546 7.4614628e-18 546 326 2.24950267e-15 326.238949 0.45584206 653.761051 545.544158"></polyline>
+        </g>
+    </g>
+</svg>
