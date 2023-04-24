@@ -41,6 +41,8 @@
 	"type": "module",
 	"dependencies": {
 		"remark-footnotes": "^4.0.1",
-		"remark-gfm": "^3.0.1"
+		"remark-gfm": "^3.0.1",
+		"svelte-lazy": "^1.2.1",
+		"svelte-lazy-image": "^0.5.1"
 	}
 }
