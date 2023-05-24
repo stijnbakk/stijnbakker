@@ -14,10 +14,7 @@
 
 	// console.log(data);
 
-	let colNumber = 0;
 </script>
-
-<h1>Superfeed</h1>
 
 <div class="p-10 w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10">
 	<PhotographyCard src="/photography/greece8.jpeg" orientation="portrait" />

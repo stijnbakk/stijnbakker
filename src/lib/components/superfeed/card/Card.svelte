@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { onMount } from "svelte";
 	import SourceTag from "./SourceTag.svelte";
 	import Tags from "./Tags.svelte";
 	import TypeTag from "./TypeTag.svelte";
@@ -11,6 +12,7 @@
 	export let note: string = '';
 	export let featured: boolean = false;
 	// TODO: add href option
+
 </script>
 
 <div class={`h-full md:flex justify-center items-center ${featured ? 'md:col-span-2' : ''}`}>
