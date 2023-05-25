@@ -34,12 +34,12 @@
 	};
 </script>
 
-{#if item?.url}
+{#if item?.image && Array.isArray(item?.image)}
 	<Card {item}>
 		<div class="w-full flex justify-center">
 			<SvelteLazy>
 				<img
-					src={item?.url}
+					src={item?.image[0].url}
 					class={`
                 w-full md:max-h-[80vh] object-cover 
                 ${convertOrientationToAspectRatio(item?.attributes)}

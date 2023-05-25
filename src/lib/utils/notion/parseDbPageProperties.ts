@@ -17,7 +17,6 @@ export const parseNotionDbSelect = (data: any): TNotionDbSelect => {
 };
 
 export const parseNotionDbMultiSelect = (data: any): TNotionDbMultiSelect => {
-	console.log('parseNotionDbMultiSelect:', data)
 	try {
 		if (!data || !data.multi_select || !Array.isArray(data.multi_select)) {
 			return undefined;
@@ -55,31 +54,37 @@ export const parseNotionDbUrl = (data: any): TNotionDbUrl => {
 	}
 };
 
-export const parseNotionDbFiles = (data: any): TNotionDbFiles => {
-    // console.log("parseNotionDbFiles", data)
-    // TODO: add support for external files
-    // parseNotionDbFiles {
-    //     id: 'dxUq',
-    //     type: 'files',
-    //     files: [
-    //       {
-    //         name: 'https://www.stijnbakker.com/photography/amsterdam1.jpg',
-    //         type: 'external',
-    //         external: [Object]
-    //       }
-    //     ]
-    //   }
+export const parseNotionDbFiles = (data: any): TNotionDbFiles | undefined => {
+	console.log("parseNotionDbFiles", data);
+  
 	try {
-		// console.log('parseNotionDbFiles', data.files[0].file.url)
-		const files = data.files.map((file: any) => ({
-			url: file.file.url,
-			fileName: file.name
-		}));
-		return files;
+	  if (data.files && Array.isArray(data.files)) {
+		const files = data.files.map((file: any) => {
+		  if (file.type === 'file' && file.file && file.file.url) {
+			return {
+			  url: file.file.url,
+			  fileName: file.name
+			};
+		  } else if (file.type === 'external' && file.name) {
+			return {
+			  url: file.name,
+			  fileName: ''
+			};
+		  }
+		  return null;
+		});
+  
+		// Filter out any null values in case of invalid file objects
+		// const filteredFiles = files.filter(file => file !== null);
+  
+		// return filteredFiles;
+		return files
+	  }
 	} catch {
-		return undefined;
+	  // Catch any errors during parsing and return undefined
+	  return undefined;
 	}
-};
+  };
 
 export const parseNotionDbDate = (data: any): TNotionDbDate => {
 	try {

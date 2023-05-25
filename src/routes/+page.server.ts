@@ -27,7 +27,7 @@ export async function load() {
 		sorts: [
 			{
 				property: 'Date_sort',
-				direction: 'ascending'
+				direction: 'descending'
 			}
 		],
 		page_size: 100

@@ -10,7 +10,7 @@
 
 	export let items: Array<TParsedSuperfeedItem>
 
-	console.log(items);
+	// console.log(items);
 </script>
 
 <div class="p-10 w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10">
