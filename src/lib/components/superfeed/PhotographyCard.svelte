@@ -6,9 +6,7 @@
 	type TOrientation = 'landscape' | 'portrait' | 'square'; // 'aspect-[3/2] | aspect-[2/3]' | 'aspect-[1/1]'
 
 	export let item: TParsedSuperfeedItem;
-	// export let orientation: TOrientation = 'landscape';
-	// export let src: string;
-	// export let featured: boolean = false;
+	// TODO: add aspect ratio to prevent jumping
 
 	const convertOrientationToAspectRatio = (
 		attributes: Array<string> | undefined
@@ -31,9 +29,8 @@
 				}
 			}
 		} catch {
-			return 'aspect-[1/1]';
+			return 'aspect-[3/1]';
 		}
-		return 'aspect-[1/1]';
 	};
 </script>
 
