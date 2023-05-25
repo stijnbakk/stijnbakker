@@ -54,9 +54,7 @@ export const parseNotionDbUrl = (data: any): TNotionDbUrl => {
 	}
 };
 
-export const parseNotionDbFiles = (data: any): TNotionDbFiles | undefined => {
-	console.log("parseNotionDbFiles", data);
-  
+export const parseNotionDbFiles = (data: any): TNotionDbFiles | undefined => {  
 	try {
 	  if (data.files && Array.isArray(data.files)) {
 		const files = data.files.map((file: any) => {

@@ -6,9 +6,9 @@
     <ul class="linklist">
         <!-- TODO: make into bouncing bubbles -->
         <li><a href="/topics-of-interest/better-spreadsheets">Better spreadsheets</a></li>
-        <li><a href="/topics-of-interest/sme-manufacturing">SME manufacturing</a></li>
-        <li><a href="/topics-of-interest/userfriendly-version-control">Userfriendly version control</a></li>
-        <li><a href="/topics-of-interest/end-user-programming">End-user programming</a></li>
+        <li><a href="/topics-of-interest">SME manufacturing</a></li>
+        <li><a href="/topics-of-interest">Userfriendly version control</a></li>
+        <li><a href="/topics-of-interest">End-user programming</a></li>
     </ul>
 </div>
 
