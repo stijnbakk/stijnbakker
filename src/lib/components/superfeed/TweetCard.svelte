@@ -1,37 +1,39 @@
 <script lang="ts">
 	import Card from './card/Card.svelte';
+	import type { TParsedSuperfeedItem } from './types';
 
-	export let username: string;
-	export let tweet: string;
-	export let imageUrl: string = '';
+	// export let username: string;
+	// export let tweet: string;
+	// export let imageUrl: string = '';
+	export let item: TParsedSuperfeedItem
 
     const getUserProfileTagWithoutAtSign = (profileTag: string): string=> {
         return profileTag.startsWith('@')
 				? profileTag.slice(1) // Remove the '@' sign if it exists
 				: profileTag;
     }
-	const getUserProfileUrl = (profileTag: string): URL | undefined => {
+	const getUserProfileUrl = (profileTag: string): string | undefined => {
 		try {
 			const profileWithoutAtSign = getUserProfileTagWithoutAtSign(profileTag)
 			const twitterUrl = `https://twitter.com/${profileWithoutAtSign}`;
-			return new URL(twitterUrl);
+			return twitterUrl;
 		} catch (error) {
 			return undefined;
 		}
 	};
 </script>
-{#if username && tweet}
-<Card type="tweet" tags={['test', 'test2']} authors={['Stijn Bakker']}>
+{#if item?.note && item?.name && item?.url}
+<a href={item?.url}>
+<Card {item}>
 	<div class="mb-8 p-4 mt-3">
-		<p class="text-sm font-bold mb-3">{getUserProfileTagWithoutAtSign(username)} • 21 may 2023</p>
+		<p><a href={getUserProfileUrl(item?.note)} class="text-sm font-bold mb-3 hover:underline">@{getUserProfileTagWithoutAtSign(item.note)}</a> • {item.date?.toLocaleDateString()}</p>
 		<p class="mb-3">
-			Software, like finance, is an intimidating jargon filled world for the people not in it. But,
-			like finance, you as a business person also have an intuition that you need to have some grasp
-			of it, as it being a more and more critical part of your business.
+			{item?.name}
 		</p>
-        {#if imageUrl}
-		<img alt="123" class="w-full aspect-video bg-gray-300 rounded" src={imageUrl}/>
+        {#if item?.image && Array.isArray(item?.image)}
+		<!-- <img alt="123" class="w-full aspect-video bg-gray-300 object-cover rounded" src={item?.image}/> -->
         {/if}
 	</div>
 </Card>
+</a>
 {/if}

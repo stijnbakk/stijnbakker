@@ -1,5 +1,7 @@
 <script lang="ts">
-    export let tags: Array<String>
+	import type { TNotionDbMultiSelect } from "$lib/utils/notion/parseDbPageProperties";
+
+    export let tags: TNotionDbMultiSelect
         let tagsLength:number = 0
     </script>
 <div class="text-xs text-gray-300 py-2 text-right">

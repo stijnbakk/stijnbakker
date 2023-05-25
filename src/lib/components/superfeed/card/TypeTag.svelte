@@ -1,5 +1,7 @@
 <script lang="ts">
-	export let type: string;
+	import type { TNotionDbSelect } from "$lib/utils/notion/parseDbPageProperties";
+
+	export let type: TNotionDbSelect;
 </script>
 
 {#if typeof(type) === 'string'}

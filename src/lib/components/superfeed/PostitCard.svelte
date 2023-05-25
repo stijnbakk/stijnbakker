@@ -1,15 +1,17 @@
 <script lang="ts">
 
 	import Card from "./card/Card.svelte";
+	import type { TParsedSuperfeedItem } from "./types";
 
-    export let note:string
+    // export let note:string
+    export let item:TParsedSuperfeedItem
 
 </script>
-{#if note}
-<Card type="postit">
+{#if item?.note}
+<Card {item}>
     <div class="bg-yellow-200 pb-10 p-4">
         <p>
-            {note}
+            {item?.note}
         </p>
     </div>
 </Card>
