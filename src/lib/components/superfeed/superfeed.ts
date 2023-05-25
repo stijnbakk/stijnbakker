@@ -32,10 +32,10 @@ const parseSuperfeedQueryResult = (pageObject: any): TParsedSuperfeedItem => {
 
 export const parseSuperfeedQueryResults = (
 	results: Array<any>
-): Array<TParsedSuperfeedItem> | Error => {
+): Array<TParsedSuperfeedItem> | undefined => {
 	try {
 		return results.map(parseSuperfeedQueryResult);
 	} catch {
-		return new Error('error parsing superfeed query results');
+		return undefined;
 	}
 };
