@@ -27,12 +27,10 @@
 </script>
 
 <div
-	class={`h-full md:flex justify-center items-center ${
-		checkIfFeaturedExists(item?.attributes) ? 'md:col-span-2' : ''
-	}`}
+	class={`h-full `}
 >
 	<div class={`relative group`}>
-		<div class="rounded relative overflow-hidden min-h-[50px] border">
+		<div class="rounded relative overflow-hidden border">
 			<slot />
 			<div class="flex absolute bottom-0 w-full justify-end items-center">
 				<SourceTag sources={item?.sources} />

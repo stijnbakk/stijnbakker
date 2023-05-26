@@ -9,7 +9,7 @@
 </script>
 {#if item?.note}
 <Card {item}>
-    <div class="bg-yellow-200 pb-10 p-4">
+    <div class="bg-yellow-200 pb-10 p-4 w-full md:max-w-lg">
         <p>
             {item?.note}
         </p>

@@ -13,16 +13,18 @@
 	// console.log(items);
 </script>
 
-<div class="p-10 w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10">
+<div class="p-10 w-full flex flex-wrap gap-10 justify-center">
 	{#if items && Array.isArray(items)}
 		{#each items as item, index}
-			{#if item.type === 'Tweet'}
+
+
+			{#if String(item?.type) === 'Tweet'}
 				<TweetCard {item} />
-			{:else if item.type === 'Photograph'}
+			{:else if String(item?.type) === 'Photograph'}
 				<PhotographyCard {item} />
-			{:else if item.type === 'Website'}
+			{:else if String(item?.type) === 'Website'}
 				<WebsiteCard {item} />
-			{:else if item.type === "Post-it"}
+			{:else if String(item?.type) === "Post-it"}
 				<PostitCard {item}/>
 			{/if}
 		{/each}

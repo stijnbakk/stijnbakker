@@ -2,6 +2,7 @@
 	import SvelteLazy from 'svelte-lazy';
 	import Card from './card/Card.svelte';
 	import type { TParsedSuperfeedItem } from './types';
+	import { attr } from 'svelte/internal';
 
 	type TOrientation = 'landscape' | 'portrait' | 'square'; // 'aspect-[3/2] | aspect-[2/3]' | 'aspect-[1/1]'
 
@@ -12,42 +13,34 @@
 		attributes: Array<string> | undefined
 	): string | undefined => {
 		try {
-			if (Array.isArray(attributes) && attributes.length > 0) {
-				const aspectAttributes = attributes.filter((attr) => attr.startsWith('aspect-'));
-				if (aspectAttributes.length > 0) {
-					const orientationParsed = aspectAttributes[0].substring(7); // Remove 'aspect-' prefix
-					switch (orientationParsed) {
-						case 'landscape':
-							return 'aspect-[3/2]';
-						case 'portrait':
-							return 'aspect-[2/3]';
-						case 'aspect-square':
-							return 'aspect-[1/1]';
-						default:
-							return 'aspect-[3/2]';
-					}
-				}
+			if (attributes?.includes('aspect-portrait')) {
+				return 'aspect-[2/3]'
+			} else {
+				return 'aspect-[3/2]'
 			}
 		} catch {
-			return 'aspect-[3/1]';
+			console.log('return a catch')
+			return 'aspect-[3/2]';
 		}
 	};
 </script>
 
 {#if item?.image && Array.isArray(item?.image)}
 	<Card {item}>
-		<div class="w-full flex justify-center">
-			<SvelteLazy>
-				<img
-					src={item?.image[0].url}
+		<div class="w-full flex justify-center items-center">
+			<!-- <SvelteLazy> -->
+				<!--  -->
+				<div
+				style={`background-image: url(${item?.image[0].url})`}
 					class={`
-                w-full md:max-h-[80vh] object-cover 
+                bg-cover
+				${item?.attributes?.includes('featured') ? "md:h-[90vh]" : "md:h-[50vh]"}
                 ${convertOrientationToAspectRatio(item?.attributes)}
+				overflow-hidden
                 bg-gray-200
                 `}
-					alt="123"
 				/>
-			</SvelteLazy>
+			<!-- </SvelteLazy> -->
 		</div>
 	</Card>
 {/if}
