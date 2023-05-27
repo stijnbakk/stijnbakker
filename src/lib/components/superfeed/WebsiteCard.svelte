@@ -16,7 +16,7 @@
 				<div class="p-4 w-full">
 					<p class="font-bold mb-1">{item?.name}</p>
 					<p />
-					<a href={String(item?.url)} class="text-sm text-gray-500 underline">{item?.url}</a>
+					<a href={String(item?.url)} class="text-sm text-gray-500 underline truncate">{item?.url.split('/')[2]}</a>
 				</div>
 			</div>
 		</Card>
