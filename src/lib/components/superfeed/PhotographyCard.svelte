@@ -34,9 +34,11 @@
 				style={`background-image: url(${item?.image[0].url})`}
 					class={`
                 bg-cover
-				min-w-[100vw] md:min-w-0
-				${item?.attributes?.includes('featured') ? "md:h-[90vh]" : "md:h-[50vh]"}
-                ${convertOrientationToAspectRatio(item?.attributes)}
+				${convertOrientationToAspectRatio(item?.attributes)}
+				min-w-[100vw] md:min-w-0 
+				${item?.attributes?.includes('featured') ? "md:min-h-[70vh] md:max-w-[90vw]" : "md:min-h-[50vh]"}
+                
+				transition-transform transform-gpu hover:scale-105 duration-1000
 				overflow-hidden
                 bg-gray-200
                 `}
