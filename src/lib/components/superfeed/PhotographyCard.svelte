@@ -28,7 +28,7 @@
 {#if item?.image && Array.isArray(item?.image)}
 	<Card {item}>
 		<div class="w-full flex justify-center items-center">
-			<!-- <SvelteLazy> -->
+			<SvelteLazy>
 				<!--  -->
 				<div
 				style={`background-image: url(${item?.image[0].url})`}
@@ -41,7 +41,7 @@
                 bg-gray-200
                 `}
 				/>
-			<!-- </SvelteLazy> -->
+			</SvelteLazy>
 		</div>
 	</Card>
 {/if}
