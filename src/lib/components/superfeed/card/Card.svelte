@@ -47,8 +47,6 @@
 						<div class="w-[20px] bg-yellow-200 aspect-square rotate-45" />
 					</div>
 					<div class="bg-yellow-200 p-4 rounded">
-						<!-- <div class="absolute left-0 right-0 bottom-0 p-4 bg-gray-100 opacity-0 invisible transition-opacity duration-300 group-hover:opacity-100 group-hover:visible"> -->
-
 						<p>
 							{note}
 						</p>
