@@ -32,7 +32,7 @@
 	<div class={`relative group`}>
 		<div class="rounded relative overflow-hidden border">
 			<slot />
-			<div class="flex absolute bottom-0 w-full justify-end items-center">
+			<div class="flex absolute bottom-0  w-full justify-end items-center">
 				<SourceTag sources={item?.sources} />
 				<TypeTag type={item?.type} />
 			</div>

@@ -34,6 +34,7 @@
 				style={`background-image: url(${item?.image[0].url})`}
 					class={`
                 bg-cover
+				min-w-[100vw] md:min-w-0
 				${item?.attributes?.includes('featured') ? "md:h-[90vh]" : "md:h-[50vh]"}
                 ${convertOrientationToAspectRatio(item?.attributes)}
 				overflow-hidden
