@@ -7,6 +7,7 @@
 	import PhotographyCard from '$lib/components/superfeed/PhotographyCard.svelte';
 	import ArticleCard from '$lib/components/superfeed/ArticleCard.svelte';
 	import type { TParsedSuperfeedItem } from '$lib/components/superfeed/types';
+	import DocumentCard from './DocumentCard.svelte';
 
 	export let items: Array<TParsedSuperfeedItem>
 
@@ -26,6 +27,10 @@
 				<WebsiteCard {item} />
 			{:else if String(item?.type) === "Post-it"}
 				<PostitCard {item}/>
+			{:else if String(item?.type) === "Document"}
+				<DocumentCard {item} />
+			{:else if String(item?.type) === "Article"}
+				<ArticleCard {item} />
 			{/if}
 		{/each}
 	{/if}
