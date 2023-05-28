@@ -44,9 +44,9 @@
 			>
 				<div>
 					<div class="-mb-3 w-full flex justify-center">
-						<div class="w-[20px] bg-yellow-200 aspect-square rotate-45" />
+						<div class="w-[20px] bg-white border-[1px] border-gray-200 z-10 aspect-square rotate-45" />
 					</div>
-					<div class="bg-yellow-200 p-4 rounded">
+					<div class="bg-white p-4 rounded border-[1px] border-gray-200 z-20">
 						<p>
 							{note}
 						</p>
