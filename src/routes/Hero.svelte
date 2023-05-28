@@ -1,14 +1,13 @@
 <script lang="ts">
-	import ReachOut from "$lib/components/common/ReachOut.svelte";
+	import ReachOut from '$lib/components/common/ReachOut.svelte';
 
 	let scroll: number = 0;
 </script>
 
 <!-- <svelte:window bind:scrollY={scroll} /> -->
-        
-        <!-- p-5 md:p-10 lg:p-20 xl:p-28 -->
-<div
 
+<!-- p-5 md:p-10 lg:p-20 xl:p-28 -->
+<div
 	class="
 		
         flex items-center
@@ -45,11 +44,11 @@
 			style:transform={`translate3d(0, ${scroll * -1.2}px,0)`}
 		>
 			I'm a <a href="/freelance">freelance strategist</a>,<br />
-			<a href="#">concept designer</a>, <br />
-			<a href="#">curious person</a>, <br />
+			<a href="/concepts">concept designer</a>, <br />
+			<a href="/topics-of-interest">curious person</a>, <br />
 			and <a href="/photography">enthusiastic photographer</a>
 		</p>
-	<ReachOut />
+		<ReachOut />
 	</div>
 </div>
 
