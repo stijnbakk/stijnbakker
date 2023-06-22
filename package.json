@@ -43,6 +43,7 @@
 	"dependencies": {
 		"@notionhq/client": "^2.2.5",
 		"dotenv": "^16.0.3",
+		"rehype-highlight": "^6.0.0",
 		"remark-footnotes": "^4.0.1",
 		"remark-gfm": "^3.0.1",
 		"svelte-lazy": "^1.2.1",
