@@ -18,7 +18,7 @@
 
 <!-- Cleanup unnecessary code in this file -->
 
-<div class="prose mx-auto">
+<div class="prose mx-auto pb-10">
 	<!-- Svelte SEO-->
 	<SvelteSeo title={data.frontmatter.title} description={data.frontmatter.description} />
 
