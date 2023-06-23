@@ -3,7 +3,7 @@ title: Spatial Computings' real driver - SwiftUI
 description: Vision Pro will give AR a boost, but SwiftUI is the true magic, unlocking developers' creativity allowing the definition of spatial computing to emerge over time
 author: Stijn Bakker
 date: 2023-06-23
-published: false
+published: true
 ---
 
 <script>
@@ -18,11 +18,11 @@ published: false
 
 <TLDR items={TLDRitems} />
 
-Apple launched a new gadget. And reactions are... Mixed.
+Apple launched [a new gadget](https://www.apple.com/apple-vision-pro/). And reactions are... Mixed.
 
 ![](spatial-computing-driver/vision-pro-reaction.jpeg)
 
-Vision Pro is a VR or AR goggle. A hardware engineering marvel. (As an industrial designer I was really really in awe).
+[Vision Pro](https://www.apple.com/apple-vision-pro/) is a VR or AR goggle. A hardware engineering marvel. (As an industrial designer I was really really in awe).
 
 ![](spatial-computing-driver/exploded-view.webp)
 
@@ -38,17 +38,17 @@ But Apple knows the keynote is watched by everyone. They need something visual t
 
 But the most important thing Apple didn't show in the keynote. They showed it in the WWDC developer videos:
 
-**SwiftUI and VisionOS**
+**[SwiftUI](https://developer.apple.com/xcode/swiftui/) and [visionOS](https://developer.apple.com/visionos/**
 
 ![](spatial-computing-driver/swiftui.webp)
 
-SwiftUI will be the real game-changer here.
+[SwiftUI](https://developer.apple.com/xcode/swiftui/) will be the real game-changer here.
 
 SwiftUI is Apple's way to build user interfaces. It's very powerful and fairly user-friendly. It achieves something the internet never really could - a streamlined experience across apps that are still incredibly customisable. It's like HTML and CSS, but completely different.
 
-And SwiftUI fully integrates with a massive SDK, allowing developers to only focus on the functionality and user-value of their apps, instead of worrying about fuzzy stuff.
+And SwiftUI fully integrates with a massive set of [SDKs](https://developer.apple.com/whats-new/), allowing developers to only focus on the functionality and user-value of their apps, instead of worrying about fuzzy stuff.
 
-<small>(little note here; I fully realise how Apple simultaneously enables and limits developers with a fairly restrictive set of SDKs, but for a lot of functionalities the trade-offs seem to be worth it in favour of enabling creativity)</small>
+<small>little note here; I fully realise how Apple simultaneously enables and limits developers with a fairly restrictive set of SDKs, but for a lot of functionalities the trade-offs seem to be worth it in favour of enabling creativity</small>
 
 Sure, developing for the VisionOS is still developing rectangular frames. Floating iPads.
 
@@ -72,4 +72,6 @@ Over the next 3-4 years Vision Pro will primarily be a device for developers. Th
 
 And when we know what that means, Apple will know exactly what to design and engineer their hardware around. Sprinkle in some innovation, and the price will drop drastically. Then add some useful and visually exciting use-cases, and Vision Pro (or Vision SE by that time), might just become a mainstream device (for professionals).
 
-I for one am very excited what developers come up with, and how Apple will evolve VisionOS and SwiftUI to take advantage of 3D applications.
+I for one am very excited what developers come up with, and how Apple will evolve VisionOS and SwiftUI to take advantage of 'spatial' applications.
+
+<small>On a narrowly related note. In the developer video <a href="https://developer.apple.com/videos/play/wwdc2023/10279/">Meet Safari for spatial computing</a> the developers repeatedly rever to <code>xrOS</code> instead of <code>visionOS</code>. Could it be that <a href="https://www.macrumors.com/guide/xros/">the original rumors around the OS</a> were right? </small>
