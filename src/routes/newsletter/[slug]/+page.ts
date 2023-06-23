@@ -1,6 +1,7 @@
 import type { PageLoad } from './$types';
 import { slugFromPath } from '$lib/slugFromPath';
 import { error } from '@sveltejs/kit';
+import { dev } from '$app/environment';
 
 export const load: PageLoad = async ({ params }) => {
 	const modules = import.meta.glob(`/src/routes/newsletter/letters/*.{md,svx,svelte.md}`);
@@ -15,7 +16,7 @@ export const load: PageLoad = async ({ params }) => {
 
 	const post = await match?.resolver?.();
 
-	if (!post || !post.metadata.published) {
+	if (!post || (!dev && !post.metadata.published)) {
 		throw error(404); // Couldn't resolve the post
 	}
 

@@ -15,7 +15,7 @@
 <p>Coming soon</p>
 <SignUp />
 
-<!-- <ul>
+<ul>
 	{#each data.posts as { slug, title, author, description, date }}
 		<li>
 			<a href="/newsletter/{slug}">
@@ -23,6 +23,6 @@
 			</a>
 		</li>
 	{/each}
-</ul> -->
+</ul>
 
 <slot />

@@ -1,10 +1,14 @@
 ---
-title: 'Why a newsletter'
-description: "I will start a newsletter. As an accountability tool to myself to condense my thoughts, and as a means to share something you'll hopefully find useful."
-author: 'Stijn Bakker'
-date: '2023-03-23'
+title: Why a newsletter
+description: I will start a newsletter. As an accountability tool to myself to condense my thoughts, and as a means to share something you'll hopefully find useful.
+author: Stijn Bakker
+date: 2023-06-23
 published: true
 ---
+
+<script>
+	import SignUp from '$lib/components/common/NewsletterSignUp.svelte';
+</script>
 
 Starting June 2023 I will start an experiment; a monthly newsletter. My key slow takes of the things I observe and think about during the month. Thoughts on entrepreneurship, (European) policy and tech. All in one small and simple newsletter.
 
@@ -33,6 +37,8 @@ I write almost every day. Yet I never dare to publish. Afraid of the real-world 
 Lastly, this is an experiment. When is it a success? If I feel it sharpens my thinking, and allows me to become more concrete. If the newsletter enables me to capture my cloud of thoughts my thoughts and observations.
 
 And most of all, I hope you guys find my thoughts remotely useful and/or interesting!
+
+<SignUp />
 <br/>
 
 Stijn Bakker<br/>[stijn@stijnbakker.com](mailto:stijn@stijnbakker.com)
