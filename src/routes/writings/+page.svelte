@@ -13,11 +13,14 @@
 <h1>Writings</h1>
 
 <ul>
-	{#each data.posts as { slug, title, author, description, date }}
+	{#each data.posts as { slug, title, author, description, date, published }}
 		<li>
 			<a href="/writings/{slug}">
 				{title}
 			</a>
+			{#if !published}
+				<span class="text-xs bg-blue-200 p-1 rounded text-blue-700 ml-2">draft</span>
+			{/if}
 		</li>
 	{/each}
 </ul>
