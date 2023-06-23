@@ -3,6 +3,7 @@ import { slugFromPath } from '$lib/slugFromPath';
 import type { PageServerLoad } from './$types';
 
 // const MAX_POSTS = 10;
+// TODO: Fix sitemap generation for blog - ie. fix static generation for blog
 
 export const load: PageServerLoad = async ({ url }) => {
 	const modules = import.meta.glob(`/src/routes/writings/posts/*.{md,svx,svelte.md}`);
