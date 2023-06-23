@@ -18,6 +18,7 @@
 		{
 			label: 'Other',
 			subItems: [
+				{ label: 'Treasure chest', url: '/treasure' },
 				{ label: 'Topics of interest', url: '/topics-of-interest' },
 				{ label: 'Concepts', url: '/concepts' },
 				{ label: 'Legacy portfolio', url: '/portfolio' },
