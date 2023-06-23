@@ -1,6 +1,7 @@
 <script lang="ts">
 	import type { PageData } from './$types';
 	import SvelteSeo from 'svelte-seo';
+	import SignUp from '../../lib/components/common/NewsletterSignUp.svelte';
 
 	export let data: PageData;
 
@@ -12,6 +13,7 @@
 
 <h1>Newsletter</h1>
 <p>Coming soon</p>
+<SignUp />
 
 <!-- <ul>
 	{#each data.posts as { slug, title, author, description, date }}
