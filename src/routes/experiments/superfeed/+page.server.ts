@@ -1,5 +1,5 @@
 import { parseSuperfeedQueryResults } from '$lib/components/superfeed/superfeed';
-import { parseSuperfeedResponse, superfeedNotion } from '$lib/utils/notion/superfeedNotion';
+import { parseSuperfeedResponse, notionClient } from '$lib/utils/notion/notionClient';
 import { data } from '../grid-spacing/data';
 
 export const prerender = true;
@@ -7,7 +7,7 @@ export const prerender = true;
 export async function load() {
 	const databaseId = import.meta.env.VITE_NOTION_SUPERFEED_DB_ID;
 
-	const response = await superfeedNotion.databases.query({
+	const response = await notionClient.databases.query({
 		database_id: databaseId,
 		filter: {
 			and: [

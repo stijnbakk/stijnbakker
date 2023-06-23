@@ -1,12 +1,12 @@
 import { parseSuperfeedQueryResults } from '$lib/components/superfeed/superfeed';
-import { superfeedNotion } from '$lib/utils/notion/superfeedNotion';
+import { notionClient } from '$lib/utils/notion/notionClient';
 
 export const prerender = true;
 
 export async function load() {
 	const databaseId = import.meta.env.VITE_NOTION_SUPERFEED_DB_ID;
 
-	const response = await superfeedNotion.databases.query({
+	const response = await notionClient.databases.query({
 		database_id: databaseId,
 		filter: {
 			and: [
