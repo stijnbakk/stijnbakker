@@ -11,9 +11,9 @@
 <SvelteSeo {title} {description} />
 
 <h1>Writings</h1>
-<p>This is the welcome page, containing for now some example code to be ported later TODO:</p>
+<p>Coming soon</p>
 
-<ul>
+<!-- <ul>
 {#each data.posts as { slug, title, author, description, date }}
 <li>
 	<a href="/writings/{slug}">
@@ -22,6 +22,6 @@
 </li>
 	
 {/each}
-</ul>
+</ul> -->
 
 <slot />

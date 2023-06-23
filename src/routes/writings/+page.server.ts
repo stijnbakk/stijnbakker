@@ -5,7 +5,7 @@ import type { PageServerLoad } from './$types';
 // const MAX_POSTS = 10;
 
 export const load: PageServerLoad = async ({ url }) => {
-	const modules = import.meta.glob(`/src/routes/writings/Writings-source/*.{md,svx,svelte.md}`);
+	const modules = import.meta.glob(`/src/routes/writings/posts/*.{md,svx,svelte.md}`);
 
 	const postPromises = Object.entries(modules).map(([path, resolver]) =>
 		resolver().then(
@@ -18,7 +18,7 @@ export const load: PageServerLoad = async ({ url }) => {
 	);
 
 	const posts = await Promise.all(postPromises);
-	const publishedPosts = posts.filter((post) => post.published)
+	const publishedPosts = posts.filter((post) => post.published);
 
 	publishedPosts.sort((a, b) => (new Date(a.date) > new Date(b.date) ? -1 : 1));
 

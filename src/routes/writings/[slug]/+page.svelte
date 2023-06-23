@@ -9,6 +9,7 @@
 	type C = $$Generic<typeof SvelteComponentTyped<any, any, any>>;
 	$: component = data.component as unknown as C;
 
+	console.log(data);
 	// TODO: make it so it uses folders instead of files
 	// TODO: add OG image and SEO
 	// TODO: create TLDR component
@@ -24,6 +25,6 @@
 	<h1>
 		{data.frontmatter.title}
 	</h1>
-	
+
 	<svelte:component this={component} />
 </div>
