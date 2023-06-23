@@ -11,7 +11,6 @@
 <SvelteSeo {title} {description} />
 
 <h1>Writings</h1>
-<p>Coming soon</p>
 
 <ul>
 	{#each data.posts as { slug, title, author, description, date }}
