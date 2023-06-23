@@ -13,15 +13,14 @@
 <h1>Writings</h1>
 <p>Coming soon</p>
 
-<!-- <ul>
-{#each data.posts as { slug, title, author, description, date }}
-<li>
-	<a href="/writings/{slug}">
-			{title}
-	</a>
-</li>
-	
-{/each}
-</ul> -->
+<ul>
+	{#each data.posts as { slug, title, author, description, date }}
+		<li>
+			<a href="/writings/{slug}">
+				{title}
+			</a>
+		</li>
+	{/each}
+</ul>
 
 <slot />
