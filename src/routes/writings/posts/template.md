@@ -3,7 +3,7 @@ title: 'Template'
 description: 'Description'
 author: 'Stijn Bakker'
 date: '2023-03-23'
-published: true
+published: false
 ---
 
 <script>
