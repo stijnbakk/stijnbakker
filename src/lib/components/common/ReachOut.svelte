@@ -1,20 +1,30 @@
+<script>
+	import Icon from '@iconify/svelte';
+</script>
+
 <div class="buttons">
-    <a href="https://cal.com/stijnbakker" class="">schedule</a>
-    <a href="tel:0031630519248">call</a>
-    <a href="mailto:stijn@stijnbakker.com">mail</a>
-    <a href="https://www.linkedin.com/in/stijnbakker-innovation/">connect</a>
+	<a href="mailto:stijn@stijnbakker.com"><Icon icon="uil:envelope" class="icon" /></a>
+	<a href="tel:0031630519248"><Icon icon="uil:phone" class="icon" /></a>
+	<a href="https://www.linkedin.com/in/stijnbakker-innovation/"
+		><Icon icon="uil:linkedin" class="icon" /></a
+	>
+	<a href="https://www.twitter.com/stijnbakker"><Icon icon="uil:twitter" class="icon" /></a>
+	<!-- <a href="/newsletter"><Icon icon="uil:newspaper" class="icon" /></a> -->
 </div>
+
 <style lang="scss">
 	.buttons {
-		line-height: 1.8;
+		@apply flex flex-row gap-2 -ml-2 text-xl;
+		.icon {
+			@apply h-10;
+		}
 		a {
-			@apply py-2 px-4 
-			border-2 border-black 
+			@apply p-2
 			inline-block rounded 
 			hover:bg-black hover:text-white 
 			transition-all 
 			my-[0.15rem]
-			text-xs sm:text-base;
+			text-xl sm:text-base;
 		}
 	}
 </style>
