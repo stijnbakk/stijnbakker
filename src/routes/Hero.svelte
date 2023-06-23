@@ -4,9 +4,6 @@
 	let scroll: number = 0;
 </script>
 
-<!-- <svelte:window bind:scrollY={scroll} /> -->
-
-<!-- p-5 md:p-10 lg:p-20 xl:p-28 -->
 <div
 	class="
 		
