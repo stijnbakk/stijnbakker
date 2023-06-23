@@ -4,7 +4,7 @@
 </script>
 
 <div class="bg-gray-50 px-8 py-2 rounded mb-10">
-	<p class="font-bold text-lg">TLDR item</p>
+	<p class="font-bold text-lg">TLDR</p>
 	<ul class="list-outside">
 		{#each items as item}
 			<li>{@html item}</li>
