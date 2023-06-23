@@ -19,7 +19,7 @@
 		{#each items as item, index}
 			{#if String(item?.type) === 'Tweet'}
 				<TweetCard {item} />
-			{:else if String(item?.type) === 'Photograph'}
+			{:else if String(item?.type) === 'Photograph' || String(item?.type) === 'Image'}
 				<PhotographyCard {item} />
 			{:else if String(item?.type) === 'Website'}
 				<WebsiteCard {item} />
