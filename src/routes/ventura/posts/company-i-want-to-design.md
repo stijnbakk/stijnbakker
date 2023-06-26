@@ -1,0 +1,40 @@
+---
+title: The business I want to build
+description: An outline of the type of business I would like to build and why, as a guide for value proposition selectoin
+author: Stijn Bakker
+date: 2023-06-26
+published: true
+---
+
+Usually you start with an idea, allow the business to emerge around it.
+
+I want to have a small experiment and turn that around.
+
+In this document I outline the business I would like to build and be a part of. Anything small or bigger is irrelevant for me. Therefore, if a value proposition were to require a different type of business, I can pre-select those to not be relevant for me.
+
+My ideal business is heavily influenced by a couple of companies:
+
+- [Muse](https://museapp.com/)
+- [Ulysses](https://ulysses.app/)
+- [Raycast](https://www.raycast.com/)
+
+These are the core characteristics that jump out to me:
+
+| Characteristic              | Company                | Description                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| --------------------------- | ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Remote first                | Muse, Raycast          | Team works remotely, from anywhere in the world. Yet the business is very much designed around that, with the schedule balancing synchronous and async work. Remote first means a different cost structure, allowing in the budget for bi-monthly team summits. Yet it is also a very inspiring value proposition towards employees. Lastly, remote-first means you must also be a trust-first business, and as such you will hire for that automatically |
+| Personal & playful          | Muse, Ulysses          | Marketing for these companies feels effortless, although I know for a fact that it isn't. It feels like I have a direct line with the creators, which is a big reason I want to pay for their tools.                                                                                                                                                                                                                                                      |
+| Value/design driven         | Muse, Ulysses, Raycast | Each company knows exactly who their target user is, what painpoints they have, and how exactly they provide value to the user. Every feature developed starts with that as an understanding. That makes the products deceptively simple and beautiful.                                                                                                                                                                                                   |
+| Beautiful product           | Muse, Ulysses, Raycast | Each of these companies takes aesthetics seriously, believing that to be part of the value they deliver. The products never feel like they're in the way, that is by design. And they heavily leverage the platform they're on (which happens to be macOS in all three cases)                                                                                                                                                                             |
+| Software product            | Muse, Ulysses, Raycast | Software, I described it already in the [brief](/ventura/brief), is what these companies have in common. Software makes also the most sense for my first venture.                                                                                                                                                                                                                                                                                         |
+| Anti-lock-in business model | Muse, Ulysses          | The companies take a very respectful position towards their users. Whily unapologetic that they charge money for their added value, the product is built on open file formats. Thus enabling the user to never be 'locked-in'. This is paradigm changing from the predominant SaaS thinking in the industry nowadays.                                                                                                                                     |
+| Max team 10                 | Muse, Ulysses          | These companies employ a team that is small and highly diverse. You get the sense everyone knows each other well, and respects each others expertise. Trust-first (see remote-first). Staying small allows you to keep understanding your customer and value, which is the path to staying relevant, in my view.                                                                                                                                          |
+| Bi-monthly team summits     | Muse, Raycast          | Being remote-first from the start enables a different cost structure and team collaboration expectation. This enables regular in-person summits that can focus on interpersonal bonding and strategic roadmapping, over production work. High-value time together, switched with moderate periods of trust-first collaboration                                                                                                                            |
+| Everyone a partner          | Muse, (Ulysses)        | Everyone at Muse is a partner, thus creating ownership in the company. This facilitates a completely different mindset, even though it complicates matters sometimes in terms of taxes and employment contracts.                                                                                                                                                                                                                                          |
+| Single platform             | Muse, Ulysses, Raycast | All companies are very clear on what their platform and architecture is, and fully leverage the toolset these platforms offer. By limiting themselves to one platform, they also make it a lot easier to create a universal and well-designed experience across tools and devices.                                                                                                                                                                        |
+
+What is it about these products and businesses that inspire me? They feel authentic. They know the value they provide really well, continue to deliver on that value, do so in a way that seems to me the ideal company to work for, and as such take an ambitious but 'lifestyle' approach to growing. They know what they're about, employ a very dedicated and diverse team to understand the user and deliver the value. That seems to me a company I want to be a part of, and would like to build.
+
+## Vision for my company
+
+Own an operate a calm company that is small and quirky and loved by its users like Ulysses and Muse. The company employs a maximum of 10 people, all are partners in the business. Every 10 weeks we meet somewhere for roadmapping and teambuilding. The other 9 weeks we spend building. We trust each other, and are a diverse bunch building on top of each others strengths. We know exactly who our customer is, and what value we're trying to give him. We build exactly for that. We focus on telling the story of our product; for the nerds on how we build it (like Musecast), and for the main what it empowers you as a user to do. We send out quirky newsletters occasionally, like Ulysses. We grow, but not through aggressive marketing or large debts. We grow naturally.
