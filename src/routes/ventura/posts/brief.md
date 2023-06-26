@@ -16,23 +16,13 @@ published: true
   ]
   </script>
 
-<TLDR items={TLDRitems} />
+<!-- <TLDR items={TLDRitems} /> -->
 
-Project Ventura. Very original name. What is it about?
-
-Project Ventura is my documentation, build-in-public journey of creating a business. Inspired by documentation of that process in the podcast [StartUp](https://gimletmedia.com/shows/startup). This website and everything around it act as my accountability tool.
+Project Ventura is my documentation and build-in-public journey of creating a business. Inspired by documentation of that process in the podcast [StartUp](https://gimletmedia.com/shows/startup). This website and everything around it act as my accountability tool.
 
 This document here is the project brief. A succint 'assignment' for myself on how to execute over the coming 3 months.
 
-In a nutshell - july, august and september 2023 will be about settling on a validated value proposition and business case, with actionable next steps. Whether those are seeking investment, building a product, finding a co-founder, doesn't matter. I feel like I need the focus of having decided on one value proposition to continue with.
-
-Personal objectives in a nutshell:
-
-- From over-strategising to actionable research, experiments and talking with people
-- From tendency to build without thought, to actionable research, validation setups and messy mockups and prototypes
-- From closed-off thinking in my office to publicly sharing, talking about my ambition, and getting feedback
-
-## Mission objective
+## Project objective
 
 <div class=' vp_statement'>
   Settle on a 
@@ -91,6 +81,57 @@ Personal objectives in a nutshell:
   </span>
   .
 </div>
+
+### Personal objectives
+
+- From over-strategising to actionable research, experiments and talking with people
+- From tendency to build without thought, to actionable research, validation setups and messy mockups and prototypes
+- From closed-off thinking in my office to publicly sharing, talking about my ambition, and getting feedback
+
+## Project boundaries
+
+- Monthly maximum budget of € 350,- to spend primarily on ads to validate concepts
+- Hourly logging, targeting 32 hours a week, with accountability weekly in blog
+- Weekly blog post outlining key findings, hours and next steps
+- Limit hours on bootstrap funds to max 30 hours a week
+- Postpone actual product building until there is a validated MVP
+
+## Project approach and phases
+
+**The approach** is classic strategy consulting inspired: weekly sprints, clearly defined deliverables, accountability reports at the end of every week.
+
+Objective is to have a validated business proposal.
+
+Starting point is a vague collection of ideas, hooks for interesting problems and rough outlined document with vision for the world.
+
+### 5 Phases of the project:
+
+| Phase                             | Description                                                                                                                                                                             |
+| --------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1. Search direction consolidation | Collect historical notes, hunges and ideas into seperate clearly defined search areas for focused research and opportunity identification                                               |
+| 2. Problem statement definition   | Focused research per search area to define the key painpoints of target audience and opportunities for solutions which map on the 'map' of personal skills, interest and audience match |
+| 3. Solution design and validation | Design value propositions for most promising painpoints, including a high-level strategy. Convert into validatable experiments (waitlists)                                              |
+| 4. Business model design          | Select most promising value propositions and detail out the business model and revenue model, validate in the running experiment                                                        |
+| 5. Strategy consolidation         | Select 1-2 most promising value propositions that have market traction and overlap with personal interest, target audience matching, and potential for long-term big-thinking           |
+
+### Plan in detail week by week
+
+| Month | Week (2023) | Phase | Plan and deliverables                                          |
+| ----- | ----------- | ----- | -------------------------------------------------------------- |
+| 06    | W26         | 01    | `Project brief`, `3-4 search areas definition`                 |
+| 07    | W27         | 02    | `Problem statement hypotheses`, `Research area interim report` |
+|       | W28         | 02    | `Search area report and conclusion`, `Problem statement`       |
+|       | W29         | 03    | `Solution design`                                              |
+|       | W30         | 03    | `Experiment design`                                            |
+| 08    | W31         | 03    | `Experiment design`, `Experiment launch`                       |
+|       | W32         | 03    | `Experiment insights`, `Experiment tweaks`                     |
+|       | W33         | 03    | `Experiment conclusions`                                       |
+|       | W34         | 04    | `Business model 1 & 2`                                         |
+|       | W35         | 04    | `Business model 3 & 4`                                         |
+| 09    | W36         | 04    | `Business model design report`                                 |
+|       | W37         | 05    | `Business + strategy design 1`                                 |
+|       | W38         | 05    | `Business + strategy design 2`                                 |
+|       | W39         | 05    | `Business design report + insights + recommendations`          |
 
 <style lang="scss">
   .vp_statement{
