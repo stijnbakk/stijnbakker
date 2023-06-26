@@ -12,4 +12,6 @@ const config = defineConfig({
 	rehypePlugins: [rehypeHighlight]
 });
 
+// TODO: add syntax highlighting
+
 export default config;
