@@ -1,15 +1,12 @@
 <script>
 	import SvelteSeo from 'svelte-seo';
-	
-	const title = "Stijn Bakker - About me"
-	const description = "Stijn Bakker is a digital strategy consultant, product owner and front-end engineer based in Rotterdam, the Netherlands. He has a background in music, engineering and strategy. He is currently working with various corporations, startups and non-profits."
+
+	const title = 'Stijn Bakker - About me';
+	const description =
+		'Stijn Bakker is a digital strategy consultant, product owner and front-end engineer based in Rotterdam, the Netherlands. He has a background in music, engineering and strategy. He is currently working with various corporations, startups and non-profits.';
 </script>
 
-
-<SvelteSeo
-	title={title}
-	description={description}
-/>
+<SvelteSeo {title} {description} />
 <div class="max-w-xl mx-auto py-8 px-3 leading-relaxed mt-10">
 	<h1 class="font-serif text-4xl font-bold leading-normal mb-8">I'm Stijn Bakker</h1>
 	<p>I live in beautiful <strike>Haarlem</strike> Rotterdam</p>
@@ -110,33 +107,23 @@
 	</div>
 </div>
 
-<style>
-	a {
-		@apply underline underline-offset-2;
+<style lang="scss">
+	.accordion-item-content {
+		@apply grid;
+		grid-template-rows: 0fr;
+		transition: grid-template-rows 100ms;
+
+		span {
+			@apply min-h-0 invisible transition-all duration-100 text-sm text-gray-400;
+		}
 	}
-	.accordion-item-content,
-	.accordion:hover .accordion-item-content {
-		height: 0;
-		overflow: hidden;
-		transition: height 0.25s;
-		transition-delay: 0.25s;
-	}
-	.accordion-item p {
-		@apply leading-relaxed;
-	}
-	section {
-		display: block;
-	}
-	p {
-		transition: all 0.5s ease-in-out;
-	}
-	.accordion-item-content span {
-		/* color: rgba(0, 0, 0, 0.18824); */
-		@apply text-sm opacity-50;
-	}
-	.accordion .accordion .accordion-item--default .accordion-item-content,
-	.accordion:hover .accordion-item:hover .accordion-item-content {
-		height: 3.4em;
-		/* @apply h-min */
+
+	.accordion-item:hover {
+		.accordion-item-content {
+			grid-template-rows: 1fr;
+			span {
+				@apply visible;
+			}
+		}
 	}
 </style>
