@@ -12,8 +12,8 @@
 			url: '/about'
 		},
 		{
-			label: 'Freelance',
-			url: '/freelance'
+			label: 'Ventura',
+			url: '/ventura'
 		},
 		{
 			label: 'Other',
