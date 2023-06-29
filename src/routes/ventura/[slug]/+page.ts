@@ -3,7 +3,7 @@ import { slugFromPath } from '$lib/slugFromPath';
 import { error } from '@sveltejs/kit';
 import { dev } from '$app/environment';
 
-const prerender = true;
+// const prerender = true;
 
 export const load: PageLoad = async ({ params }) => {
 	const modules = import.meta.glob(`/src/routes/ventura/posts/*.{md,svx,svelte.md}`);
