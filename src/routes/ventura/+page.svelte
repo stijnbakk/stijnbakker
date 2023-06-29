@@ -12,6 +12,15 @@
 
 <h1>Ventura</h1>
 
+<h2>Quick links</h2>
+<ul>
+	<li>
+		<a href="/ventura/search-areas">Search areas</a>
+	</li>
+</ul>
+
+<h2>Posts</h2>
+
 <ul>
 	{#each data.posts as { slug, title, author, description, date, published }}
 		<li>
