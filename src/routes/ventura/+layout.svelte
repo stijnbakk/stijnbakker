@@ -1,5 +1,5 @@
 <script>
-	let password = '';
+	let password = 'entrepreneurship';
 	let passwordSet = 'entrepreneurship';
 </script>
 
