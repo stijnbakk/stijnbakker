@@ -2,13 +2,13 @@
 title: Ventura week 1.0
 description: Description
 author: Stijn Bakker
-date: 2023-06-29
+date: 2023-07-02
 published: false
 ---
 
 Wrap-up of W26-2023, halfway through (thursday)
 
-Exciting week! First week to really push myself to get cracking. Thus far I've only logged 7,5 hours, but already I felt it time to wrap up the week with 4 defined search areas and boundaries. I defined that I want to explore 4 areas further, and I've found that within those areas I must look for opportunities that leverage my experience in design and turning designs into products (instead of for example advanced tech or advanced branding/marketing).
+Exciting week! First week to really push myself to get cracking. Thus far I've only logged 14,75 hours, but already I felt it time to wrap up the week with 4 defined search areas and boundaries. I defined that I want to explore 4 areas further, and I've found that within those areas I must look for opportunities that leverage my experience in design and turning designs into products (instead of for example advanced tech or advanced branding/marketing).
 
 Let's have a look at the week
 
@@ -18,7 +18,7 @@ Let's have a look at the week
 
 ## Deliverables of this week
 
-- 4 search areas defined
+- 5 search areas defined
 - "Skill-interest sweetspot"
 - "Ambition-asset sweetspot"
 
@@ -86,4 +86,4 @@ Let's have a look at the week
 
 ## What's next
 
-Assignment for week 1.5 (end of this week): ** Kick-off research into search areas with the creation of a solid template for each search area, and the answering of all research questions (as hypotheses) as the setup for further research, problem state definition and opportunity mapping in week 2 **
+Assignment for week 2: **a full defined set of search areas with documented problem statements, reported insights and opportunities and a initial draft version of a potential/excitement matrix for ideas, solutions and problems to solve, ready for validation of the problem statements with target audiences.**
