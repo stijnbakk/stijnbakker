@@ -97,7 +97,7 @@
 		</section>
 		<br />
 		<section class="accordion-item">
-			<p>I now use my experience to bridge business, designers and engineers</p>
+			<p>I now work as product lead</p>
 		</section>
 		<section class="accordion-item">
 			<p>

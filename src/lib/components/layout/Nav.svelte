@@ -12,10 +12,6 @@
 			url: '/about'
 		},
 		{
-			label: 'Freelance',
-			url: '/freelance'
-		},
-		{
 			label: 'Other',
 			subItems: [
 				{ label: 'Treasure chest', url: '/treasure' },
