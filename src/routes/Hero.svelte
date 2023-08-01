@@ -40,9 +40,10 @@
 			mb-8"
 			style:transform={`translate3d(0, ${scroll * -1.2}px,0)`}
 		>
-			I'm <a href="https://core-connect.io">lead at CoreConnect (part of rb2)</a>,<br />
+			I'm <a href="https://core-connect.io">lead at CoreConnect</a>,
+			<span class="text-sm">(part of <a href="https://www.rb2.nl">rb2</a>)</span><br />
 			founder at <a href="https://the.concepting.company">The Concepting Company</a>, <br />
-			all-round <a href="/topics-of-interest">curious person</a>, <br />
+			all-round <a href="/topics-of-interest">always-learner</a>, <br />
 			and <a href="/photography">enthusiastic photographer</a>
 		</p>
 		<ReachOut />
