@@ -1,12 +1,12 @@
 ---
 title: Building auth for Strapi in SvelteKit
-description: 
+description:
 author: Stijn Bakker
 date: 2023-04-23
-published: true
+published: false
 ---
 
-``` svelte
+```svelte
 <script lang="ts">
 	import type { PageData } from './$types';
 	import SvelteSeo from 'svelte-seo';
@@ -23,14 +23,13 @@ published: true
 <p>This is the welcome page, containing for now some example code to be ported later TODO:</p>
 
 <ul>
-{#each data.posts as { slug, title, author, description, date }}
-<li>
-	<a href="/writings/{slug}">
-			{title}
-	</a>
-</li>
-	
-{/each}
+	{#each data.posts as { slug, title, author, description, date }}
+		<li>
+			<a href="/writings/{slug}">
+				{title}
+			</a>
+		</li>
+	{/each}
 </ul>
 
 <slot />

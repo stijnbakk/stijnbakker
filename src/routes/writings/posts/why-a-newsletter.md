@@ -3,7 +3,7 @@ title: Why a newsletter
 description: I will start a newsletter. As an accountability tool to myself to condense my thoughts, and as a means to share something you'll hopefully find useful.
 author: Stijn Bakker
 date: 2023-06-23
-published: true
+published: false
 ---
 
 <script>

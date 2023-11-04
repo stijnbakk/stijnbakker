@@ -3,7 +3,7 @@ title: Spatial Computings' real driver - SwiftUI
 description: Vision Pro will give AR a boost, but SwiftUI is the true magic, unlocking developers' creativity allowing the definition of spatial computing to emerge over time
 author: Stijn Bakker
 date: 2023-06-23
-published: true
+published: false
 ---
 
 <script>

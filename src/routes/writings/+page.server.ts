@@ -17,9 +17,12 @@ export const load: PageServerLoad = async ({ url }) => {
 	);
 
 	const posts = await Promise.all(postPromises);
-	const publishedPosts = dev ? posts : posts.filter((post) => post.published);
-
+	// const publishedPosts = dev ? posts : posts.filter((post) => post.published);
+	const publishedPosts = posts.filter((post) => post.published);
 	publishedPosts.sort((a, b) => (new Date(a.date) > new Date(b.date) ? -1 : 1));
 
-	return { posts: publishedPosts };
+	const highlightedPosts = publishedPosts.filter((post) => post.fav);
+	const otherPosts = publishedPosts.filter((post) => !post.fav);
+
+	return { posts: otherPosts, highlighted: highlightedPosts };
 };

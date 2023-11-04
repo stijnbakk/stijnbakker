@@ -2,7 +2,7 @@
 title: Personal website stack
 description: The tech I use to keep this website running, and the considerations that went into them
 author: Stijn Bakker
-date: 2023-06-26
+date: 2022-05-01
 published: true
 ---
 
