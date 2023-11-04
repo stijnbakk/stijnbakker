@@ -21,6 +21,7 @@
 				inline-block
 				text-3xl sm:text-5xl lg:text-6xl xl:text-7xl
 				leading-normal
+				mb-4
 				"
 			style:transform={`translate3d(0, ${scroll * -1.3}px,0)`}
 		>
@@ -36,15 +37,19 @@
 			class="
 			introduction
 			font-serif font-light
-			text-3xl sm:text-5xl lg:text-6xl xl:text-7xl
+			text-3xl sm:text-5xl lg:text-5xl xl:text-6xl
 			mb-8"
 			style:transform={`translate3d(0, ${scroll * -1.2}px,0)`}
 		>
-			I'm <a href="https://core-connect.io">lead at CoreConnect</a>,
+			I'm a <a href="/about">digital product builder</a><br />
+			I also <a href="/writings">sometimes write</a><br />
+			and take the occassional <a href="/photography">photograph</a> <br />
+
+			<!-- I'm <a href="https://core-connect.io">lead at CoreConnect</a>,
 			<span class="text-sm">(part of <a href="https://www.rb2.nl">rb2</a>)</span><br />
 			founder at <a href="https://the.concepting.company">The Concepting Company</a>, <br />
 			all-round <a href="/topics-of-interest">always-learner</a>, <br />
-			and <a href="/photography">enthusiastic photographer</a>
+			and <a href="/photography">enthusiastic photographer</a> -->
 		</p>
 		<ReachOut />
 	</div>

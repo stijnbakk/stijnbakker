@@ -12,16 +12,24 @@
 			url: '/about'
 		},
 		{
-			label: 'Other',
-			subItems: [
-				{ label: 'Treasure chest', url: '/treasure' },
-				{ label: 'Topics of interest', url: '/topics-of-interest' },
-				{ label: 'Concepts', url: '/concepts' },
-				{ label: 'Legacy portfolio', url: '/portfolio' },
-				{ label: 'Writings', url: '/writings' },
-				{ label: 'Photography', url: '/photography' }
-			]
+			label: 'Writings',
+			url: '/writings'
+		},
+		{
+			label: 'Photography',
+			url: '/photography'
 		}
+		// {
+		// 	label: 'Other',
+		// 	subItems: [
+		// 		{ label: 'Treasure chest', url: '/treasure' },
+		// 		{ label: 'Topics of interest', url: '/topics-of-interest' },
+		// 		{ label: 'Concepts', url: '/concepts' },
+		// 		{ label: 'Legacy portfolio', url: '/portfolio' },
+		// 		{ label: 'Writings', url: '/writings' },
+		// 		{ label: 'Photography', url: '/photography' }
+		// 	]
+		// }
 	];
 
 	function isActive(url: string): boolean {

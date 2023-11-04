@@ -10,19 +10,19 @@
 
 <SvelteSeo {title} {description} />
 
-<h1>Writings</h1>
-
-<ul>
+<div class="grid grid-cols-1 gap-3">
 	{#each data.posts as { slug, title, author, description, date, published }}
-		<li>
-			<a href="/writings/{slug}">
-				{title}
-			</a>
-			{#if !published}
-				<span class="text-xs bg-blue-200 p-1 rounded text-blue-700 ml-2">draft</span>
-			{/if}
-		</li>
+		<a href="/writings/{slug}" class=" rounded block p-3 -mx-3 hover:bg-gray-50">
+			<div>
+				<p class="no-underline">
+					{title}
+					{#if !published}
+						<span class="text-xs bg-blue-200 p-1 rounded text-blue-700 ml-2">draft</span>
+					{/if}
+				</p>
+			</div>
+		</a>
 	{/each}
-</ul>
+</div>
 
 <slot />
