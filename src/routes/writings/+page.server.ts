@@ -21,8 +21,8 @@ export const load: PageServerLoad = async ({ url }) => {
 	const publishedPosts = posts.filter((post) => post.published);
 	publishedPosts.sort((a, b) => (new Date(a.date) > new Date(b.date) ? -1 : 1));
 
-	const highlightedPosts = publishedPosts.filter((post) => post.fav);
-	const otherPosts = publishedPosts.filter((post) => !post.fav);
+	// const highlightedPosts = publishedPosts.filter((post) => post.fav);
+	// const otherPosts = publishedPosts.filter((post) => !post.fav);
 
-	return { posts: otherPosts, highlighted: highlightedPosts };
+	return { posts: publishedPosts };
 };
