@@ -31,9 +31,8 @@
 	</p>
 
 	<br />
-	<p>In my spare time I'd like to read and think</p>
+	<p>In my spare time I like to read and think</p>
 	<p>Occassionally culminating into <a href="/writings">writings</a></p>
-	<p>Mainly on EU, tech, entrepreneurship and policy</p>
 	<p>And I like to go hunting for <a href="/photography" class="underline">nice photographs</a></p>
 
 	<h2 class="font-serif text-2xl font-bold mt-16 mb-4">

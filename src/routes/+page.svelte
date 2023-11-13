@@ -3,6 +3,7 @@
 	import Hero from './Hero.svelte';
 	import Superfeed from '$lib/components/superfeed/Superfeed.svelte';
 	import type { TParsedSuperfeedItem } from '$lib/components/superfeed/types';
+	import About from './About.svelte';
 
 	const title = 'Stijn Bakker - strategy engineer, business designer and essayist';
 	const description =
@@ -35,6 +36,9 @@
 />
 <div class="">
 	<Hero />
+
+	<About />
+
 	{#if data.results}
 		<Superfeed items={data.results} />
 	{/if}
