@@ -47,7 +47,7 @@ About potential<br/>
 Not about what actually is
 
 And because it is aspirational<br/>
-It's powering
+It's empowering
 
 Because it allows a thing that isn't <br/>
 to identify and focus itself
