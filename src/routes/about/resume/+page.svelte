@@ -142,3 +142,11 @@
 		</ul>
 	</div>
 </div>
+
+<style lang="scss">
+	h1,
+	h2,
+	h3 {
+		@apply font-serif;
+	}
+</style>
