@@ -44,7 +44,7 @@
 			I'm a <a href="/about">digital product builder</a>,<br />
 			I <a href="/writings">sometimes write</a>,<br />
 			like concepting/designing <a href="/concepts/docr">new ideas</a><br />
-			and take the occassional <a href="/photography">photograph</a> <br />
+			and take the occasional <a href="/photography">photograph</a> <br />
 		</p>
 		<ReachOut />
 	</div>
