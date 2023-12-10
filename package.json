@@ -46,6 +46,7 @@
 	"type": "module",
 	"dependencies": {
 		"@notionhq/client": "^2.2.5",
+		"@vercel/speed-insights": "^1.0.1",
 		"dotenv": "^16.0.3",
 		"rehype-highlight": "^6.0.0",
 		"remark-footnotes": "^4.0.1",
